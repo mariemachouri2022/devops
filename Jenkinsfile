@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloner') {
             steps {
-                git branch: 'master', url: 'https://github.com/<ton-user>/<ton-repo>.git'
+                git branch: 'main', url: 'https://github.com/mariemachouri2022/devops.git'
             }
         }
         stage('Build') {
